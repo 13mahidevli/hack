@@ -1,0 +1,479 @@
+.navbar {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #2ecc71;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.nav-links li {
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.linkbar {
+  border-bottom: 3px solid white;
+  font-weight: bold;
+}
+
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #0073e6, #005bb5);
+  color: white;
+  text-align: center;
+}
+
+/* Title Styling */
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Button Group Styling */
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+/* Button Styling */
+.option-button {
+  border: none;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Individual Button Colors */
+.user {
+  background-color: #ffcc00;
+  color: #333;
+}
+
+.personalist {
+  background-color: #ff5733;
+  color: white;
+}
+
+/* Hover Effects */
+.option-button:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+/* Welcome Message */
+.welcome-message {
+  font-size: 24px;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #0073e6, #005bb5);
+  color: white;
+  text-align: center;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.signup-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-button {
+  background-color: #ffcc00;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #e6b800;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #0073e6, #005bb5);
+  color: white;
+  text-align: center;
+}
+
+.location-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.location-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.location-button {
+  background-color: #ffcc00;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.location-button:hover {
+  background-color: #e6b800;
+}
+
+.dispose-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #007f5f, #005b40);
+  color: white;
+  text-align: center;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.leaf-icon {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.dispose-button {
+  background-color: #ffcc00;
+  color: black;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.dispose-button:hover {
+  background-color: #e6b800;
+}
+.pincode-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  height: 100vh;
+  background: linear-gradient(to right, #0073e6, #005bb5);
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.pincode-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.pincode-form input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pincode-button {
+  background-color: #ffcc00;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pincode-button:hover {
+  background-color: #e6b800;
+}
+.industrylist{
+  background-color: rgb(246, 246, 246);
+  color: black;
+  display: flex;
+  width: 350px;
+  padding: 7px;
+  margin-top: 2px;
+  text-decoration:none ;
+}
+.industrylist:hover{
+  background-color: grey;
+}
+.industry-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.industry-heading {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.industry-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.industry-address {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.industry-link {
+  display: block;
+  color: #3498db;
+  text-decoration: none;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.industry-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.industry-button:hover {
+  background-color: #2ecc71;
+}
+.material-container {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.material-heading {
+  color: #2c3e50;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.cardbutton {
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.cardbutton:hover {
+  background-color: #2ecc71;
+}
+.productpic img{
+  width: 200px;
+  height: 130px;
+}
+.order-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: linear-gradient(to right, #007f5f, #005b40);
+  background-color: #007f5f;
+  padding: 20px;
+  height: 100vh;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.order-heading {
+  color: white;
+  font-size: 24px;
+}
+
+.order-message {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.order-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-button:hover {
+  background-color: #2ecc71;
+}
+
+.notification-container {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.notification-heading {
+  color: #2c3e50;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.notification-message {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.linkbar{
+  background-color: gray;
+}
